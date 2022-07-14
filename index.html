@@ -8,11 +8,40 @@
     <title>Login Page</title>
   </head>
   <body>
-    <div class="component--login">
+    <div class="admin--login">
       <header>
         <h5>Welcome Back !</h5>
         <p>Sing in to continue</p>
       </header>
+      <div class="admin-content">
+        <div class="profilePic">
+            <img src="image/avatar.png" alt="">
+        </div>
+        <form action="" method="post">
+            <ul>
+                <li>    
+                    <label class="title" for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter username">
+                </li>
+                <li>    
+                    <label class="title" for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                </li>
+                <li>
+                    <label for="" class="checkbox">
+                        <input type="checkbox" name="remember_me" value="1">
+                        <span class="checkbox"></span>
+                        <span class="text">Remember me</span>
+                    </label>
+                </li>
+                <li>
+                    <button type="submit">Log In</button>
+                </li>
+            </ul>
+
+        </form>
+      </div>
+
     </div>
 
     <script src="js/app.js"></script>
